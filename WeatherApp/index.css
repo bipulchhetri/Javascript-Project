@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2015/01/06/08/02/sky-589982_1280.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.heading {
+  color: rgb(243, 245, 238);
+  margin-bottom: 2%;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.header {
+  text-align: center;
+  margin-top: 3%;
+}
+.inputx {
+  padding: 20px 150px 20px 50px;
+  box-shadow: 2px 3px 4px 5px rgb(126, 114, 114);
+  border: 2px solid white;
+}
+button {
+  padding: 20px 50px 20px 30px;
+  background-color: rgb(19, 18, 17);
+  color: white;
+  border: 2px solid white;
+  border-radius: 20%;
+  font-size: 1rem;
+  font-weight: bold;
+  box-shadow: 2px 3px 4px 5px rgb(126, 114, 114);
+}
+button:hover {
+  background-color: rgb(18, 233, 90);
+  cursor: pointer;
+}
+.BOX {
+  height: 500px;
+
+  padding: 20px;
+  border-radius: 5px;
+}
+.icon {
+  font-size: 40px;
+  margin: auto;
+  align-items: center;
+  color: white;
+  font-weight: bold;
+  width: fit-content;
+  /* margin-bottom: 15px; */
+  border-radius: 50%;
+  padding: 20px;
+}
+.weather {
+  font-size: 35px;
+  font-weight: bold;
+  margin: auto;
+  align-items: center;
+  color: white;
+  width: fit-content;
+  /* margin-bottom: 15px; */
+  border-radius: 50%;
+  padding: 20px;
+}
+.temperature {
+    font-size: 40px;
+  margin: auto;
+  align-items: center;
+  color: white;
+  width: fit-content;
+  /* margin-bottom: 10px; */
+  border-radius: 50%;
+  padding: 20px;
+}
+.description {
+  font-size: 16px;
+  margin-left: 22%;
+
+  color: black;
+  width: fit-content;
+  margin: auto;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  padding: 20px;
+}
+@media only screen and (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .input {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  button {
+    border-radius: 5%;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+  }
+}
