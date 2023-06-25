@@ -10,9 +10,13 @@ input:focus-visible {
     outline: 0;
 }
 
+body{
+    background-image: url("https://cdn.pixabay.com/photo/2019/11/08/10/34/cyber-4610993_1280.jpg");
+  
+}
 .main {
-    background-color: #3498db;
-    min-height: 100vh;
+   height: 100%;
+   width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,11 +24,11 @@ input:focus-visible {
 
 .box {
     min-width: 400px;
-    padding: 10px;
+    margin-right: 6%;
     box-shadow: 0 4px 10px rgb(0 0 0 / 50%);
-    background: #2980b9;
+    background: transparent;
     border-radius: 2px;
-    margin-top: 10px;
+    margin-top: 20%;
 }
 
 #pass-box {
@@ -47,15 +51,19 @@ input:focus-visible {
 
 label {
     user-select: none;
+  
 }
-
+.left{
+    color: rgb(237, 237, 240);
+    font-weight: bold;
+}
 #btn {
     width: 100%;
     font-size: 20px;
     outline: 0;
     border: 0;
     padding: 10px;
-    background-color: #34495e;
+    background-color: #15d425;
     color: white;
     margin-top: 10px;
     border-radius: 5px;
